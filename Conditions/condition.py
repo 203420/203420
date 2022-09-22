@@ -1,4 +1,3 @@
-#Clase
 import threading
 
 cond = threading.Condition()
