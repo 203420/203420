@@ -22,8 +22,6 @@ class Hilo(threading.Thread):
         mutex.release()
 
     
-        
-
 hilos = [Hilo(1), Hilo(2), Hilo(3)]
 x=1;
 for h in hilos:
